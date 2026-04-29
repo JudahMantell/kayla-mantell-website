@@ -1,5 +1,11 @@
 {
-  "name": "kaylamantell-proxy",
+  "name": "kayla-mantell-website",
   "main": "src/index.js",
-  "compatibility_date": "2025-01-01"
+  "compatibility_date": "2025-01-01",
+  "migrations": [
+    {
+      "tag": "v2",
+      "deleted_classes": ["WorkflowStatusDO"]
+    }
+  ]
 }
